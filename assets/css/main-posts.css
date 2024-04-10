@@ -1,0 +1,164 @@
+body {
+    color: rgb(0, 0, 0);
+    background-color:rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    padding-top: 30px;
+
+}
+
+.menu_button img{
+    width: 65px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 10;
+    display:none;
+    flex-direction:column;
+    align-items:flex-start;
+    width: 240px;
+    height: 98vh;
+    border-right: 1px solid white;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.918) ;
+}
+
+.sidebar ul li {
+    padding: 0px 2px;
+    text-align: center;
+    margin-block: 10px;
+}
+
+.sidebar ul li a {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 550;
+    text-align: center;
+}
+
+.sidebar a:hover {
+    text-decoration: none;
+    font-weight: 550;
+    color: darkslateblue
+
+}
+
+
+.ajuste_pagina {
+    padding: 0px 50px;
+    margin-left:100px;
+    margin-right:100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    border-style:groove;
+    border-color: rgb(255, 255, 255);
+}
+
+.ajuste_pagina h1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+    color:rgb(6, 0, 37);
+
+}
+
+.content h2{
+    color: darkslateblue;
+    text-align: center;
+    padding-top: 35px;
+    font-size: 30px;
+}
+
+.content h3{
+    color: darkslateblue;
+    padding-left: 25px;
+    font-size: 23px;
+}
+
+.content p {
+    text-indent: 10%;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.columns {
+    column-count: 2;
+    column-rule-style:groove;
+    column-rule-color: rgba(0, 0, 0, 0.425);
+    column-gap: 50px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.post_1 p{
+    padding-top: 20px;
+    display: block;
+    text-align: justify;
+    margin: auto;
+}
+
+
+.post_1 p img{
+    width: 300px;
+    height: auto;
+    margin: 15px;
+    border-radius: 5px;
+    padding-left: 75px;
+}
+
+.footer img {
+    width: 25px;
+    height: auto;    
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding-inline: 50px;
+}
+
+footer a {
+    color:rgb(0, 0, 0);
+    margin: 20px;
+    text-align: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    font-weight: 550;
+    color: darkslateblue
+
+}
+
+footer p {
+    margin-top: 5%;
+    text-align: center;  
+}
+
+button {
+    width: 70px;
+    height: 35px;
+    background: transparent;
+    border: none;
+    font-family: inherit;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+.menu_button img{
+    width: 65px;
+}
+
+.menu_button img:hover{
+    width: 66px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 12px 18px, rgba(0, 0, 0, 0.22) 0px 10px 12px;
+    border-radius: 15px;
+}
+

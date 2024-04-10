@@ -1,0 +1,163 @@
+body {
+    color: rgb(0, 0, 0);
+    background-color:rgb(43, 0, 59);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar {
+    position: fixed;
+    top: 10;
+    display:none;
+    flex-direction:column;
+    align-items:flex-start;
+    width: 240px;
+    height: 98vh;
+    border-right: 1px solid white;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.918) ;
+}
+
+button {
+    width: 70px;
+    height: 35px;
+    background: transparent;
+    border: none;
+    font-family: inherit;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+body ul {
+    display:flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+body ul li {
+    padding: 0px 2px;
+    text-align: center;
+    margin-block: 10px;
+}
+
+body ul li a {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 550;
+    text-align: center;
+}
+
+.sidebar a:hover {
+    text-decoration: none;
+    font-weight: 550;
+    color: darkslateblue
+
+}
+
+.header img {
+    width: 200px;
+    height: auto;
+    border-radius: 35%;
+    border: 5px solid darkslateblue;
+}
+
+.header {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.header h1 {
+    color: darkslateblue;
+}
+
+.footer img {
+    width: 25px;
+    height: auto;    
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding-inline: 50px;
+}
+
+footer a {
+    color:rgb(0, 0, 0);
+    margin: 20px;
+    text-align: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    font-weight: 550;
+    color: darkslateblue
+
+}
+
+footer p {
+    margin-top: 5%;
+    text-align: center;  
+}
+
+.ajuste_pagina {
+    padding: 0px 50px;
+    margin-left:100px;
+    margin-right:100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    border-style:groove;
+    border-color: white;
+}
+
+.content h2{
+    color: darkslateblue;
+    text-align: center;
+    padding-top: 35px;
+    font-size: 30px;
+}
+
+.content h3{
+    color: darkslateblue;
+    padding-left: 25px;
+    font-size: 23px;
+}
+
+.content p {
+    text-indent: 10%;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.list il{
+    padding: 0px 3px;
+    margin-block: 3px;
+}
+
+.list il a{
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.list il p{
+    font-size: 15px;
+}
+
+.click a:hover{
+    color:rgba(0, 0, 0, 0.76);
+    
+    
+}
+
+.menu_button img{
+    width: 65px;
+}
+
+.menu_button img:hover{
+    width: 66px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 12px 18px, rgba(0, 0, 0, 0.22) 0px 10px 12px;
+    border-radius: 15px;
+}
