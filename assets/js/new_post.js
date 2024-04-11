@@ -1,10 +1,12 @@
-document.addEventListener('DOMContentLoaded', function () { 
+document.addEventListener('DOMContentLoaded', function () {
+
     const createPostBtn = document.getElementById('#post_button');
+    
     const postContainer = document.querySelector('.content'); 
     const postForm = document.getElementById('newpost_form'); 
     
     postForm.addEventListener('submit', function (event) {
-		event.preventDefault(); 
+		event.preventDefault();
 
         const postTitle = document.getElementById('post_title').value; 
         const postDescription = document.getElementById('post_text').value;
@@ -17,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
         <h1 class="post-title"> ${postTitle}</h1><br>
 
         <p class="post-description">
-        ${postDescription.substring(0, 100)}...</p>`;
+        ${postDescription.substring(0, 1000)}</p>`;
 
         //alert('Passou do new post');
 
